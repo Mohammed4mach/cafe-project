@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../assets/img/tim-toomey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+.blur
+{
+    position: absolute;
+    width: 150%;
+    height: 200%;
+    z-index: -100;
+    backdrop-filter: blur(30px);
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_slider
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
