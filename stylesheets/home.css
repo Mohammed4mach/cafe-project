@@ -15,7 +15,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url(assets/img/tim-toomey.jpg);
+  background-image: url(../assets/img/tim-toomey.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
