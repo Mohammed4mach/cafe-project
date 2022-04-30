@@ -7,9 +7,9 @@
 
 body
 {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     background-image: url(../assets/img/tim-toomey.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,11 +18,16 @@ body
     overflow-x: hidden;
 }
 
+input:focus
+{
+    outline: none;
+}
+
 .blur
 {
-    position: absolute;
-    width: 150%;
-    height: 200%;
+    position: fixed;
+    width: 200%;
+    height: 300%;
     z-index: -100;
     backdrop-filter: blur(30px);
 }
@@ -31,8 +36,14 @@ main
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+h1
+{
+    margin-bottom: 50px;
 }
 
 form
@@ -43,9 +54,35 @@ form
     align-items: center;
 }
 
-.list_slider
+.most-played
+{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.playlist
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    header
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .arrow
+        {
+            cursor: pointer;
+        }
+
+        h1
+        {
+            margin-bottom: 8px;
+            font-size: 29px;
+        }
+    }
 }

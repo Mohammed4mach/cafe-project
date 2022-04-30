@@ -1,0 +1,66 @@
+.music-card {
+  margin-right: 25px;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 174px;
+  height: 210px;
+}
+
+.music-card .music-img {
+  width: 100%;
+  height: 74%;
+  border-bottom: 1px solid black;
+}
+
+.music-card .music-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px 25px 0 0;
+}
+
+.music-card .music-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: calc(100% - 74%);
+  border-radius: 0 0 25px 25px;
+  padding: 10px;
+  background-color: #E4E4E4;
+  color: black;
+}
+
+.music-card .music-info > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.music-card .music-info > div .music-title {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.music-card .music-info > div .music-band {
+  font-size: 13px;
+  font-weight: 600;
+  color: #555555;
+}
+
+.music-card .music-info .circle-play {
+  cursor: pointer;
+}
+/*# sourceMappingURL=music-card.css.map */

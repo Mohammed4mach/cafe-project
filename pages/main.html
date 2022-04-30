@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../stylesheets/search-input.css">
+    <link rel="stylesheet" href="../stylesheets/music-card.css">
+    <link rel="stylesheet" href="../stylesheets/list-slider.css">
     <link rel="stylesheet" href="../stylesheets/main.css">
 
     <title>Main</title>
@@ -14,120 +17,149 @@
     <main>
         <h1>Search for music</h1>
         <form action="search.html" method="get">
+            <label for="srch-inpt">
             <div class="search-input">
-                <input type="text" placeholder="Get your song from here...">
-                <img src="../assets/icons/Search.svg">
-            </div>
+                <input id="srch-inpt" type="text" placeholder="Get your song from here..." required>
+                <img src="../assets/icons/Search.svg" alt="Search icon">
+            </div></label>
             <input type="submit" value="Search">
         </form>
 
         <section class="playlist most-played">
-            <h1>
-                <img src="../assets/icons/Chevron Left.svg" class="arrow arrow-left" alt="Left arrow">
-                Most played today
-                <img src="../assets/icons/Chevron Right.svg" class="arrow arrow-right" alt="Right arrow">
-            </h1>
+            <header>
+                <img src="../assets/icons/Chevron Left.svg" class="arrow slide-left" alt="Left arrow">
+                <h1>
+                    Most played today
+                </h1>
+                <img src="../assets/icons/Chevron Right.svg" class="arrow slide-right" alt="Right arrow">
+            </header>
 
-            <div class="list_slider">
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+            <div class="slider-container">
+                <div class="list-slider">
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
                     </div>
-                </div>
 
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
                     </div>
-                </div>
-          
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
                     </div>
-                </div>
-        
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
+                    </div>
+
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
+                        </div>
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="playlist history">
-            <h1>
-                <img src="../assets/icons/Chevron Left.svg" class="arrow arrow-left" alt="Left arrow">
-                Your search history
-                <img src="../assets/icons/Chevron Right.svg" class="arrow arrow-right" alt="Right arrow">
-            </h1>
+            <header>
+                <img src="../assets/icons/Chevron Left.svg" class="arrow slide-left" alt="Left arrow">
+                <h1>
+                    Your search history
+                </h1>
+                <img src="../assets/icons/Chevron Right.svg" class="arrow slide-right" alt="Right arrow">
+            </header>
 
-            <div class="list_slider">
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+            <div class="slider-container">
+                <div class="list-slider">
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
-                    </div>
-                </div>
-            
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
                     </div>
-                </div>
-            
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
-                        </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
-                    </div>
-                </div>
 
-                <div class="music-card">
-                    <img src="../assets/img/coldplay.jpg">
-                    <div class="music-info">
-                        <div>
-                            <span class="music-title">Fun</span>
-                            <span class="music-band">Coldplay</span>
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
                         </div>
-                        <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
+                    </div>
+
+                    <div class="music-card">
+                        <div class="music-img">
+                            <img src="../assets/img/coldplay.jpg">
+                        </div>
+                        <div class="music-info">
+                            <div>
+                                <span class="music-title">Fun</span>
+                                <span class="music-band">Coldplay</span>
+                            </div>
+                            <img src="../assets/icons/Circled Play.svg" class="circle-play">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+
+    <script src="../scripts/list-slider.js"></script>
+
 </body>
 </html>

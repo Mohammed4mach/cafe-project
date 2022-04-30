@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CACjB;EACI,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,YAAY,CACZ;EACI,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,CAAC;EACP,UAAU,EAAE,oBAAoB;CACnC",
+    "sources": [
+        "list-slider.scss"
+    ],
+    "names": [],
+    "file": "list-slider.css"
+}

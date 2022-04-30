@@ -6,6 +6,7 @@
 }
 
 body {
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,6 +70,11 @@ h1 {
   font-weight: 500;
 }
 
+.signup-btn:hover, .signin-btn:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
 .signup-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,7 +105,7 @@ h1 {
 
 .signup-btn.phone {
   background-color: #000F36;
-  border: 4px solid #FFF;
+  border: 3px solid #FFF;
 }
 
 .signup-btn.google {

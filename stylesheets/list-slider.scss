@@ -1,0 +1,14 @@
+.slider-container
+{
+    overflow-x: hidden;
+}
+
+.list-slider
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
